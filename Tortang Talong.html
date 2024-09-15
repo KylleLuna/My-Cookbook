@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortang Talong</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Recipes List.html">Recipes</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script>
+    <div>
+        <center>
+            <table class="recipes_number">
+                <tr>
+                    <td><a href="Chicken Adobo.html">1</a></td>
+                    <td><a href="Skinless Longganisa.html">2</a></td>
+                    <td><a href="Leche Flan.html">3</a></td>
+                    <td>4</td>
+                    <td><a href="Binangkal.html">5</a></td>
+                    <td><a href="Fried Chicken.html">6</a></td>
+                    <td><a href="Lava Cake.html">7</a></td>
+                    <td><a href="Crispy Pork Belly Chicharron.html">8</a></td>
+                    <td><a href="Chocolate Crinkle Cookies.html">9</a></td>
+                    <td><a href="Coconut Macaroons.html">10</a></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <h2>Tortang Talong</h2>
+    <center>
+        <img src="Tortang-Talong-Wide.png" alt="Tortang Talong" width="25%" id="present">
+    </center>
+    <p>This delicious, classic recipe is a perfect go-to in most Filipino households. This is because it is quick, easy, and best of all, absolutely tasty without sacrificing nutritional value. A massive part of this dish is the ingredient eggplant, which is rich in vitamins C, K and B6, among many other nutrients. This is also perfect with some rice and a couple</p> 
+    <h3>Ingredients:</h3>
+    <ul id="Ingredients">
+        <li>4 pieces Chinese eggplant</li>
+        <li>2 pieces raw eggs</li>
+        <li>1 teaspoon salt</li>
+        <li>6 tablespoons cooking oil</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol id="directions">
+        <li>Grill the eggplant until the color of skin turns almost black</li>
+        <li>Let the eggplant cool for a while then peel off the skin. Set aside.</li>
+        <li>Crack the eggs and place in a bowl</li>
+        <li>Add salt and beat</li>
+        <li>Place the eggplant on a flat surface and flatten using a fork.</li>
+        <li>Dip the flattened eggplant in the beaten egg mixture</li>
+        <li>Heat the pan and pour the cooking oil</li>
+        <li>Fry the eggplant (that was dipped in the beaten mixture). Makes sure that both sides are cooked. Frying time will take you about 3 to 4 minutes per side on medium heat.</li>
+    </ol>
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

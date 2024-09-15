@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li><a href="Home.html">Home</a></li>
+                        <li>Recipes</li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script>
+    <h2>My Favorite Recipes</h2>
+    <hr id="special">
+    <center>
+        <table>
+            <tr>
+                <td><a href="Chicken Adobo.html"><img src="adobo.png" alt="Filipino Chicken Adobo" width="150px"></a></td>
+                <td><a href="Skinless Longganisa.html"><img src="skinless-longganisa-featured-image.png" alt="Skinless Longganisa" width="150px"></a></td>
+                <td><a href="Leche Flan.html"><img src="Leche Flan (Filipino Creme Caramel) _ Iankewks.png" alt="Leche Flan" width="150px"></a></td>
+                <td><a href="Tortang Talong.html"><img src="Tortang-Talong-Wide.png" alt="Tortang Talong" width="150px"></a></td>
+            </tr>
+            <tr>
+                <td><a href="Binangkal.html"><img src="Binangkal_(sesame_seed_doughnuts).png" alt="Binangkal" width="150px"></a></td>
+                <td><a href="Fried Chicken.html"><img src="Buttermilk-Fried-Chicken-LEAD-7-e620d99cd240404c965da26b23526ac3.png" alt="Fried Chicken" width="150px"></a></td>
+                <td><a href="Lava Cake.html"><img src="d4749131cd5d8fe79f91c5d3f6f37101.png" alt="Lava Cake" width="150px"></a></td>
+                <td><a href="Chicken Adobo.html"><img src="Crispy Pork Belly Chicharron.png" alt="Crispy Chicharron" width="150px"></a></td>  
+            </tr>
+        </table>
+    </center>
+    <center>
+        <table id="part2">
+            <tr>
+                <td><a href="Chocolate Crinkle Cookies.html"><img src="images.png" alt="Chocolate Crumbles" width="150px"></a></td>
+                <td><a href="Coconut Macaroons.html"><img src="Coconut Macarons.png" alt="Coconut Macarons" width="150px"></a></td>
+            </tr>
+        </table>
+    </center>
+    <hr id="special">
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

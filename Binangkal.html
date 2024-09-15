@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binangkal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Recipes List.html">Recipes</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script>
+    <div>
+        <center>
+            <table class="recipes_number">
+                <tr>
+                    <td><a href="Chicken Adobo.html">1</a></td>
+                    <td><a href="Skinless Longganisa.html">2</a></td>
+                    <td><a href="Leche Flan.html">3</a></td>
+                    <td><a href="Tortang Talong.html">4</a></td>
+                    <td>5</td>
+                    <td><a href="Fried Chicken.html">6</a></td>
+                    <td><a href="Lava Cake.html">7</a></td>
+                    <td><a href="Crispy Pork Belly Chicharron.html">8</a></td>
+                    <td><a href="Chocolate Crinkle Cookies.html">9</a></td>
+                    <td><a href="Coconut Macaroons.html">10</a></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <h2>Binangkal</h2>
+    <center>
+        <img src="Binangkal_(sesame_seed_doughnuts).png" alt="Binangkal" width="25%" id="present">
+    </center>
+    <p>Binangkal is a native doughnut from Mindanao and Visayas, but also commonly found in most homegrown neighborhood bakeries or panaderias in the Philippines. It’s especially popular in Cebu as a snack school kids can bring. Unlike most fried and fluffy donuts, binangkal bread is chewy, making it the perfect pair with sesame seeds. The sesame seed’s nutty flavor is released with every bite and chew of the golden brown hard-crisp crust.</p> 
+    <h3>Ingredients:</h3>
+    <ul id="Ingredients">
+        <li>2 cups all-purpose flour</li>
+        <li>1/4 Cup cornstarch</li>
+        <li>3/4 Cup white sugar</li>
+        <li>1/4 teaspoon Salt</li>
+        <li>1 teaspoon baking powder</li>
+        <li>2 tablespoons salted butter melted</li>
+        <li>1 large egg</li>
+        <li>1/2 Cup evaporated milk</li>
+        <li>1/2 Cup sesame seeds, 1/4 teaspoon vanilla (Optional)</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol id="directions">
+        <li>Combine all dry ingredients in a bowl: flour, cornstarch, sugar, salt, and baking powder. Mix well.</li>
+        <li>In a separate bowl mix together milk, melted butter, and egg. Mix well.</li>
+        <li>Slowly add the dry ingredients into the wet mixture. Mix well to form a dough.</li>
+        <li>Scoop a tablespoon mixture to form a ball and roll it into the sesame seeds.</li>
+        <li>Prepare oil in a pan for deep frying. Make sure the oil is hot before putting the dough.</li>
+        <li>Deep fry until golden brown.</li>
+    </ol>
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

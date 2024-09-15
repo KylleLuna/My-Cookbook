@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coconut Macaroons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Recipes List.html">Recipes</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script>
+    <div>
+        <center>
+            <table class="recipes_number">
+                <tr>
+                    <td><a href="Chicken Adobo.html">1</a></td>
+                    <td><a href="Skinless Longganisa.html">2</a></td>
+                    <td><a href="Leche Flan.html">3</a></td>
+                    <td><a href="Tortang Talong.html">4</a></td>
+                    <td><a href="Binangkal.html">5</a></td>
+                    <td><a href="Fried Chicken.html">6</a></td>
+                    <td><a href="Lava Cake.html">7</a></td>
+                    <td><a href="Crispy Pork Belly Chicharron.html">8</a></td>
+                    <td><a href="Chocolate Crinkle Cookies.html">9</a></td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <h2>Coconut Macaroons</h2>
+    <center>
+        <img src="Coconut Macarons.png" alt="Coconut Macaroons" width="25%" id="present">
+    </center>
+    <p>Chewy coconut macaroons are good to have for dessert. It is delicious and guaranteed to satisfy your sweet tooth. The most important thing about this recipe that I like most is its ease of preparation. It is also quick to make.</p> 
+    <h3>Ingredients:</h3>
+    <ul id="Ingredients">
+        <li>7 ounces shredded sweetened desiccated coconut</li>
+        <li>1 egg</li>
+        <li>7 ounces condensed milk</li>
+        <li>½ teaspoon vanilla extract</li>
+        <li>1 tablespoon butter melted</li>
+        <li>a pinch of salt</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol id="directions">
+        <li>Preheat oven to 350F.</li>
+        <li>Beat the egg in a mixing bowl. Add butter, vanilla extract, and condensed milk. Whisk until well blended.</li>
+        <li>Add the desiccated coconut and salt. Fold until the mixture is distributed.</li>
+        <li>Arrange mini baking cups on a mini muffin pan. Scoop around 1 tablespoon of mixture and place it into each baking cup.</li>
+        <li>Put the muffin pan in the oven. Bake for 10 to 13 minutes.</li>
+        <li>Remove from the oven. Let it cool down.</li>
+        <li>Transfer to a plate. Serve for dessert.</li>
+        <li>Share and enjoy</li>
+    </ol>
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

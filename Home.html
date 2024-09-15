@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li>Home</li>
+                        <li><a href="Recipes List.html">Recipes</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script> 
+    <h2 id="greeting">Welcome to my cookbook.</h2>
+    <h2 id="greeting">Feel free to look around!</h2>
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

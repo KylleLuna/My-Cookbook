@@ -1,0 +1,145 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 0%;
+}
+
+#title {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    background: linear-gradient(#f0e68c, #cd5c5c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1%;
+}
+
+#content, #contacts, #contact_us, #copyright {
+    margin: 1%
+}
+
+
+
+hr {
+    margin: 0;
+}
+
+#connections {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+    font-family: "Arsenal", sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #ffe4b5);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+#buttons {
+    margin: 1%;
+}
+
+h2 {
+    color: rgb(226, 187, 114);
+    font-size: 350%;
+    text-align: center;
+    text-shadow: 2px 2px rgb(114, 114, 114);
+    font-family: "Playwrite CU", cursive;
+}
+
+#greeting {
+    color: rgb(190, 149, 80);;
+    font-size: 500%;
+    text-align: center;
+    text-shadow: 2px 2px rgb(114, 114, 114);
+    font-family: "Playwrite CU", cursive;
+    margin: 5%;
+}
+
+#about-desc {
+    font-family: "Arsenal", sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    color: rgb(136, 86, 51)
+}
+
+footer {
+    background-color: rgb(247, 228, 197);
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    padding: 12.5px; 
+    font-family: "Arsenal", sans-serif;
+    border: 3px solid rgb(234, 186, 76);
+    border-radius: 10%;
+}
+
+#special {
+    margin: 3%;
+}
+
+#contact_us, #copyright{
+    color: rgb(136, 86, 51);
+    text-align: left;
+}
+
+#present {
+    border: 7px solid rgb(234, 186, 76); 
+    border-radius: 50px;   
+}
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: italic;
+    font-family: "Arsenal", sans-serif;
+    color: rgb(136, 86, 51);
+    text-align: center;
+}
+
+#Ingredients, #directions {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Arsenal", sans-serif;
+}
+
+#directions {
+    margin-bottom: 6%;
+}
+
+h3 {
+    margin-left: 15%;
+    font-family: "Playwrite CU", cursive;
+    color: rgb(226, 187, 114);
+    text-shadow: 2px 2px rgb(114, 114, 114);
+}
+
+ul {
+    color: rgb(136, 86, 51)
+}
+
+ol {
+    color: rgb(136, 86, 51)
+}
+
+h4 {
+    font-style: normal;
+    margin: 0;
+    font-family: "Arsenal", sans-serif;
+}

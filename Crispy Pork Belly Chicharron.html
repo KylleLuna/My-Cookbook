@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Chicharron</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Recipes List.html">Recipes</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script>
+    <div>
+        <center>
+            <table class="recipes_number">
+                <tr>
+                    <td><a href="Chicken Adobo.html">1</a></td>
+                    <td><a href="Skinless Longganisa.html">2</a></td>
+                    <td><a href="Leche Flan.html">3</a></td>
+                    <td><a href="Tortang Talong.html">4</a></td>
+                    <td><a href="Binangkal.html">5</a></td>
+                    <td><a href="Fried Chicken.html">6</a></td>
+                    <td><a href="Lava Cake.html">7</a></td>
+                    <td>8</td>
+                    <td><a href="Chocolate Crinkle Cookies.html">9</a></td>
+                    <td><a href="Coconut Macaroons.html">10</a></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <h2>Crispy Chicharron</h2>
+    <center>
+        <img src="Crispy Pork Belly Chicharron.png" alt="Crispy Chicharron" width="25%" id="present">
+    </center>
+    <p>Crispy Pork Belly Chicharon might look like your regular lechon kawali. However, it is way crispier. It can be compared to crispy pork rinds, except that this still has the meat on. I personally think that this</p> 
+    <h3>Ingredients:</h3>
+    <ul id="Ingredients">
+        <li>2 lbs. pork belly</li>
+        <li>6 cups water</li>
+        <li>2 cups cooking oil</li>
+        <li>1 1/2 tablespoons whole peppercorn</li>
+        <li>8 pieces dried bay leaves</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol id="directions">
+        <li>Boil water in a cooking pot. Add salt, bay leaves, whole peppercorn, and pork. Cover and continue to boil for 60 minutes.</li>
+        <li>Remove from the pot and let pork cool down. Poke holes on the skin using a toothpick. Slice the pork in half for a thinner piece.</li>
+        <li>Rub salt all over the pork belly. Air dry for 1 hour. Note: placing the pork in front of an electric fan is a good idea.</li>
+        <li>Heat oil on a cooking pot. Deep fry pork belly until crispy and golden brown. Note: be extra careful when doing this step. Use of splatter screen is recommended.</li>
+        <li>Remove crispy pork belly from the cooking pot and place over a wire rack. Let it cool down.</li>
+        <li>Transfer to a serving plate. Serve with spicy vinegar.</li>
+        <li>Serve! Share and enjoy!</li>
+    </ol>
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>

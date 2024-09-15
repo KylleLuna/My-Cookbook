@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skinless Longganisa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 id="title">Cookbook</h1>
+            <nav id="content">
+                <ul>
+                    <div id="connections">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Recipes List.html">Recipes</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <audio id="myAudio" src="Cooking Music.mp3" loop></audio>
+    <div id="buttons">
+        <button onclick="playAudio()" type="button">⏵</button>
+        <button onclick="pauseAudio()" type="button">⏸</button>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+            x.play(); 
+        } 
+
+        function pauseAudio() { 
+            x.pause(); 
+        }
+    </script>
+    <div>
+        <center>
+            <table class="recipes_number">
+                <tr>
+                    <td><a href="Chicken Adobo.html">1</a></td>
+                    <td>2</td>
+                    <td><a href="Leche Flan.html">3</a></td>
+                    <td><a href="Tortang Talong.html">4</a></td>
+                    <td><a href="Binangkal.html">5</a></td>
+                    <td><a href="Fried Chicken.html">6</a></td>
+                    <td><a href="Lava Cake.html">7</a></td>
+                    <td><a href="Crispy Pork Belly Chicharron.html">8</a></td>
+                    <td><a href="Chocolate Crinkle Cookies.html">9</a></td>
+                    <td><a href="Coconut Macaroons.html">10</a></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <h2>Skinless Longganisa</h2>
+    <center>
+        <img src="skinless-longganisa-featured-image.png" alt="Chicken Adobo" width="25%" id="present">
+    </center>
+    <p>Skinless longganisa refers to a type of Filipino sausage without the casing. It is also known as naked sausage. Filipino Longganisa can either be sweet or garlicky. This version has the best of both worlds. It also has no preservatives. This is best when eaten with sinangag na kanin along with itlog na maalat or salted egg and papaya atchara. I like to dip it in spicy vinegar before eating.</p> 
+    <h3>Ingredients:</h3>
+    <ul id="Ingredients">
+        <li>1 ¾ lbs. ground pork</li>
+        <li>9 tablespoons dark brown sugar</li>
+        <li>1 tablespoon smoked paprika</li>
+        <li>3 tablespoons vegetable oil</li>
+        <li>1 ¼ tablespoons coarse salt</li>
+        <li>1 teaspoon ground black pepper</li>
+        <li>2 head garlic</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol id="directions">
+        <li>Peel the skin off the garlic cloves. Crush thoroughly using mortar and pestle. Mince the crushed garlic. Set aside.</li>
+        <li>In a large mixing bowl, combine ground pork along with all of the ingredients. Mix well.</li>
+        <li>Cover the bowl. Refrigerate for 2 hours.</li>
+        <li>Shape the longganisa by laying a sheet of wax paper on a flat surface. Scoop around 3 tablespoons of mixture and put over the wax paper. Fold the wax paper from top to down until the mixture covered. Hold the edge of the paper with your fingers and then slide the card towards the mixture. Push a bit more until a sausage shape is formed. Do this step until the entire mixture is consumed.</li>
+        <li>Cook the longganisa by combining 1 cup water and 4 tablespoons of cooking oil in a pan.</li>
+        <li>Add the longganisa and then turn the heat on. Let the liquid boil, and then adjust to the lowest heat setting. Continue boiling until the water completely evaporates.</li>
+        <li>Fry both sides of the longganisa in the remaining oil until it turns brown.</li>
+        <li>Remove from the pan and arrange on a serving plate. Serve with rice. Share and enjoy!</li>
+    </ol>
+    <div>
+        <hr>
+        <footer class="contacts">
+            <br>
+            <p id="contact_us">CONTACT US:</p>
+            <br>
+            <nav>
+                <ul id="connections">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com" target="_blank">X (Formerly Twitter)</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p id="copyright">@2024 - All rights reserved</p>
+            <br>
+        </footer>
+    </div>
+</body>
+</html>
